@@ -15,7 +15,7 @@ public class UserController {
 
     @GetMapping("/")
     public String home() {
-        return "welcome to home!";
+        return "welcome to home! test";
     }
 
     @GetMapping("/users")
